@@ -9,15 +9,11 @@
 #import "AGLKElementIndexArrayBuffer.h"
 
 @interface AGLKElementIndexArrayBuffer ()
-@property (nonatomic, assign) GLsizeiptr bufferSizeBytes;
-@property (nonatomic, assign) GLsizei stride;
 
 @end
 
 @implementation AGLKElementIndexArrayBuffer
-@synthesize name;
-@synthesize bufferSizeBytes;
-@synthesize stride;
+
 + (void)drawPreparedArraysWithMode:(GLenum)mode startVertexIndex:(GLint)first numberOfVertices:(GLsizei)count {
     
 }
@@ -28,12 +24,12 @@
                      usage:(GLenum)usage
 {
     if (self = [super init]) {
-        stride = aStride;
-        bufferSizeBytes = stride * count;
+        _stride = aStride;
+        _bufferSizeBytes = _stride * count;
         
-        glGenBuffers(1, &name);
+        glGenBuffers(1, &_name);
         glBindBuffer(GL_ARRAY_BUFFER, self.name);
-        glBufferData(GL_ARRAY_BUFFER, bufferSizeBytes, dataPtr, usage);
+        glBufferData(GL_ARRAY_BUFFER, _bufferSizeBytes, dataPtr, usage);
     }
     return self;
 }
@@ -71,6 +67,6 @@
     
     glBindBuffer(GL_ARRAY_BUFFER, self.name);
     
-    glBufferData(GL_ARRAY_BUFFER, bufferSizeBytes, dataPtr, GL_DYNAMIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, _bufferSizeBytes, dataPtr, GL_DYNAMIC_DRAW);
 }
 @end

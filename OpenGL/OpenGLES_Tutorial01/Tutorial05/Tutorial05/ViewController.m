@@ -55,9 +55,10 @@ static const SceneVertex vertices[] =
     
     self.textureInfo1 = [GLKTextureLoader textureWithCGImage:imageRef1 options:@{GLKTextureLoaderOriginBottomLeft:[NSNumber numberWithBool:YES],GLKTextureLoaderApplyPremultiplication:@(YES)} error:&error];
     NSLog(@"%@",error);
-    
-    glEnable(GL_BLEND);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    [(AGLKContext *)view.context enable:GL_BLEND];
+    [(AGLKContext *)view.context setBlendSourceFunction:GL_SRC_ALPHA destinationFunction:GL_ONE_MINUS_SRC_ALPHA];
+//    glEnable(GL_BLEND);
+//    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 }
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {

@@ -20,15 +20,11 @@ typedef enum {
 
 
 @interface AGLKElementIndexArrayBuffer : NSObject
-{
-    GLsizei         stride;
-    GLsizeiptr      bufferSizeBytes;
-    GLuint          name;
-}
 
-@property (nonatomic, readonly) GLuint name;
-@property (nonatomic, readonly) GLsizeiptr bufferSizeBytes;
-@property (nonatomic, readonly) GLsizei     stride;
+
+@property (nonatomic, assign) GLuint name;
+@property (nonatomic, assign) GLsizeiptr bufferSizeBytes;
+@property (nonatomic, assign) GLsizei     stride;
 
 + (void)drawPreparedArraysWithMode:(GLenum)mode startVertexIndex:(GLint)first numberOfVertices:(GLsizei)count;
 
