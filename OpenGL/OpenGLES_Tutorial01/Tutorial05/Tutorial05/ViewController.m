@@ -48,7 +48,8 @@ static const SceneVertex vertices[] =
     NSString *imagePath = [[NSBundle mainBundle]pathForResource:@"leaves.gif" ofType:nil];
     
     self.textureInfo0 = [GLKTextureLoader textureWithContentsOfFile:imagePath options:nil error:&error];
-    
+    self.baseEffect.texture2d0.name = self.textureInfo0.name;
+    self.baseEffect.texture2d0.target = self.textureInfo0.target;
     NSLog(@"%@",error);
     
     CGImageRef imageRef1 = [[UIImage imageNamed:@"beetle.png"]CGImage];
@@ -59,6 +60,9 @@ static const SceneVertex vertices[] =
     [(AGLKContext *)view.context setBlendSourceFunction:GL_SRC_ALPHA destinationFunction:GL_ONE_MINUS_SRC_ALPHA];
 //    glEnable(GL_BLEND);
 //    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    self.baseEffect.texture2d1.name = self.textureInfo1.name;
+    self.baseEffect.texture2d1.target = self.textureInfo1.target;
+    self.baseEffect.texture2d1.envMode = GLKTextureEnvModeDecal;
 }
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {
@@ -68,16 +72,19 @@ static const SceneVertex vertices[] =
     
     [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord0 numberOfCoordinates:2 attribOffset:offsetof(SceneVertex, textureCoords) shouldEnable:YES];
     
+    
+    [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord1 numberOfCoordinates:2 attribOffset:offsetof(SceneVertex, textureCoords) shouldEnable:YES];
+    [self.baseEffect prepareToDraw];
+    
+    [self.vertexBuffer drawArrayWithMode:GL_TRIANGLES startVertexIndex:2 numberOfVertices:sizeof(vertices)/sizeof(SceneVertex)];
+    
+    
+    [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord0 numberOfCoordinates:2 attribOffset:offsetof(SceneVertex, textureCoords) shouldEnable:YES];
+    
     self.baseEffect.texture2d0.name = self.textureInfo0.name;
     self.baseEffect.texture2d0.target = self.textureInfo0.target;
-    
     [self.baseEffect prepareToDraw];
     
-    [self.vertexBuffer drawArrayWithMode:GL_TRIANGLES startVertexIndex:0 numberOfVertices:sizeof(vertices)/sizeof(SceneVertex)];
-    
-    self.baseEffect.texture2d0.name = self.textureInfo1.name;
-    self.baseEffect.texture2d0.target = self.textureInfo1.target;
-    [self.baseEffect prepareToDraw];
     
     [self.vertexBuffer drawArrayWithMode:GL_TRIANGLES startVertexIndex:0 numberOfVertices:sizeof(vertices)/sizeof(SceneVertex)];
 }

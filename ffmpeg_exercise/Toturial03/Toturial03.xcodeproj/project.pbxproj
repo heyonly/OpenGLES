@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C38B08228D5EBA0031086D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C38B07228D5EBA0031086D /* AppDelegate.m */; };
+		20C38B0B228D5EBA0031086D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C38B0A228D5EBA0031086D /* ViewController.m */; };
+		20C38B0E228D5EBA0031086D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C38B0C228D5EBA0031086D /* Main.storyboard */; };
+		20C38B10228D5EBB0031086D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C38B0F228D5EBB0031086D /* Assets.xcassets */; };
+		20C38B13228D5EBB0031086D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C38B11228D5EBB0031086D /* LaunchScreen.storyboard */; };
+		20C38B16228D5EBB0031086D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C38B15228D5EBB0031086D /* main.m */; };
+		20C38B20228D5EBB0031086D /* Toturial03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C38B1F228D5EBB0031086D /* Toturial03Tests.m */; };
+		20C38B2B228D5EBB0031086D /* Toturial03UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C38B2A228D5EBB0031086D /* Toturial03UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C38B1C228D5EBB0031086D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C38AFB228D5EBA0031086D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C38B02228D5EBA0031086D;
+			remoteInfo = Toturial03;
+		};
+		20C38B27228D5EBB0031086D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C38AFB228D5EBA0031086D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C38B02228D5EBA0031086D;
+			remoteInfo = Toturial03;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C38B03228D5EBA0031086D /* Toturial03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toturial03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C38B06228D5EBA0031086D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20C38B07228D5EBA0031086D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20C38B09228D5EBA0031086D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20C38B0A228D5EBA0031086D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20C38B0D228D5EBA0031086D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C38B0F228D5EBB0031086D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C38B12228D5EBB0031086D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C38B14228D5EBB0031086D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C38B15228D5EBB0031086D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20C38B1B228D5EBB0031086D /* Toturial03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Toturial03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C38B1F228D5EBB0031086D /* Toturial03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toturial03Tests.m; sourceTree = "<group>"; };
+		20C38B21228D5EBB0031086D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C38B26228D5EBB0031086D /* Toturial03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Toturial03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C38B2A228D5EBB0031086D /* Toturial03UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toturial03UITests.m; sourceTree = "<group>"; };
+		20C38B2C228D5EBB0031086D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C38B00228D5EBA0031086D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C38B18228D5EBB0031086D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C38B23228D5EBB0031086D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C38AFA228D5EBA0031086D = {
+			isa = PBXGroup;
+			children = (
+				20C38B05228D5EBA0031086D /* Toturial03 */,
+				20C38B1E228D5EBB0031086D /* Toturial03Tests */,
+				20C38B29228D5EBB0031086D /* Toturial03UITests */,
+				20C38B04228D5EBA0031086D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C38B04228D5EBA0031086D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C38B03228D5EBA0031086D /* Toturial03.app */,
+				20C38B1B228D5EBB0031086D /* Toturial03Tests.xctest */,
+				20C38B26228D5EBB0031086D /* Toturial03UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C38B05228D5EBA0031086D /* Toturial03 */ = {
+			isa = PBXGroup;
+			children = (
+				20C38B06228D5EBA0031086D /* AppDelegate.h */,
+				20C38B07228D5EBA0031086D /* AppDelegate.m */,
+				20C38B09228D5EBA0031086D /* ViewController.h */,
+				20C38B0A228D5EBA0031086D /* ViewController.m */,
+				20C38B0C228D5EBA0031086D /* Main.storyboard */,
+				20C38B0F228D5EBB0031086D /* Assets.xcassets */,
+				20C38B11228D5EBB0031086D /* LaunchScreen.storyboard */,
+				20C38B14228D5EBB0031086D /* Info.plist */,
+				20C38B15228D5EBB0031086D /* main.m */,
+			);
+			path = Toturial03;
+			sourceTree = "<group>";
+		};
+		20C38B1E228D5EBB0031086D /* Toturial03Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20C38B1F228D5EBB0031086D /* Toturial03Tests.m */,
+				20C38B21228D5EBB0031086D /* Info.plist */,
+			);
+			path = Toturial03Tests;
+			sourceTree = "<group>";
+		};
+		20C38B29228D5EBB0031086D /* Toturial03UITests */ = {
+			isa = PBXGroup;
+			children = (
+				20C38B2A228D5EBB0031086D /* Toturial03UITests.m */,
+				20C38B2C228D5EBB0031086D /* Info.plist */,
+			);
+			path = Toturial03UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C38B02228D5EBA0031086D /* Toturial03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C38B2F228D5EBB0031086D /* Build configuration list for PBXNativeTarget "Toturial03" */;
+			buildPhases = (
+				20C38AFF228D5EBA0031086D /* Sources */,
+				20C38B00228D5EBA0031086D /* Frameworks */,
+				20C38B01228D5EBA0031086D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toturial03;
+			productName = Toturial03;
+			productReference = 20C38B03228D5EBA0031086D /* Toturial03.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C38B1A228D5EBB0031086D /* Toturial03Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C38B32228D5EBB0031086D /* Build configuration list for PBXNativeTarget "Toturial03Tests" */;
+			buildPhases = (
+				20C38B17228D5EBB0031086D /* Sources */,
+				20C38B18228D5EBB0031086D /* Frameworks */,
+				20C38B19228D5EBB0031086D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C38B1D228D5EBB0031086D /* PBXTargetDependency */,
+			);
+			name = Toturial03Tests;
+			productName = Toturial03Tests;
+			productReference = 20C38B1B228D5EBB0031086D /* Toturial03Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20C38B25228D5EBB0031086D /* Toturial03UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C38B35228D5EBB0031086D /* Build configuration list for PBXNativeTarget "Toturial03UITests" */;
+			buildPhases = (
+				20C38B22228D5EBB0031086D /* Sources */,
+				20C38B23228D5EBB0031086D /* Frameworks */,
+				20C38B24228D5EBB0031086D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C38B28228D5EBB0031086D /* PBXTargetDependency */,
+			);
+			name = Toturial03UITests;
+			productName = Toturial03UITests;
+			productReference = 20C38B26228D5EBB0031086D /* Toturial03UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C38AFB228D5EBA0031086D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = heyonly;
+				TargetAttributes = {
+					20C38B02228D5EBA0031086D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					20C38B1A228D5EBB0031086D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 20C38B02228D5EBA0031086D;
+					};
+					20C38B25228D5EBB0031086D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 20C38B02228D5EBA0031086D;
+					};
+				};
+			};
+			buildConfigurationList = 20C38AFE228D5EBA0031086D /* Build configuration list for PBXProject "Toturial03" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C38AFA228D5EBA0031086D;
+			productRefGroup = 20C38B04228D5EBA0031086D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C38B02228D5EBA0031086D /* Toturial03 */,
+				20C38B1A228D5EBB0031086D /* Toturial03Tests */,
+				20C38B25228D5EBB0031086D /* Toturial03UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C38B01228D5EBA0031086D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C38B13228D5EBB0031086D /* LaunchScreen.storyboard in Resources */,
+				20C38B10228D5EBB0031086D /* Assets.xcassets in Resources */,
+				20C38B0E228D5EBA0031086D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C38B19228D5EBB0031086D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C38B24228D5EBB0031086D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C38AFF228D5EBA0031086D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C38B0B228D5EBA0031086D /* ViewController.m in Sources */,
+				20C38B16228D5EBB0031086D /* main.m in Sources */,
+				20C38B08228D5EBA0031086D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C38B17228D5EBB0031086D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C38B20228D5EBB0031086D /* Toturial03Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C38B22228D5EBB0031086D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C38B2B228D5EBB0031086D /* Toturial03UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C38B1D228D5EBB0031086D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C38B02228D5EBA0031086D /* Toturial03 */;
+			targetProxy = 20C38B1C228D5EBB0031086D /* PBXContainerItemProxy */;
+		};
+		20C38B28228D5EBB0031086D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C38B02228D5EBA0031086D /* Toturial03 */;
+			targetProxy = 20C38B27228D5EBB0031086D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20C38B0C228D5EBA0031086D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C38B0D228D5EBA0031086D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C38B11228D5EBB0031086D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C38B12228D5EBB0031086D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C38B2D228D5EBB0031086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../FFmpeg-iOS/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../FFmpeg-iOS/lib";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20C38B2E228D5EBB0031086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../FFmpeg-iOS/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../FFmpeg-iOS/lib";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C38B30228D5EBB0031086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = Toturial03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20C38B31228D5EBB0031086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = Toturial03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20C38B33228D5EBB0031086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = Toturial03Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial03Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toturial03.app/Toturial03";
+			};
+			name = Debug;
+		};
+		20C38B34228D5EBB0031086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = Toturial03Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial03Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toturial03.app/Toturial03";
+			};
+			name = Release;
+		};
+		20C38B36228D5EBB0031086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = Toturial03UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial03UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Toturial03;
+			};
+			name = Debug;
+		};
+		20C38B37228D5EBB0031086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = Toturial03UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial03UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Toturial03;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C38AFE228D5EBA0031086D /* Build configuration list for PBXProject "Toturial03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C38B2D228D5EBB0031086D /* Debug */,
+				20C38B2E228D5EBB0031086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C38B2F228D5EBB0031086D /* Build configuration list for PBXNativeTarget "Toturial03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C38B30228D5EBB0031086D /* Debug */,
+				20C38B31228D5EBB0031086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C38B32228D5EBB0031086D /* Build configuration list for PBXNativeTarget "Toturial03Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C38B33228D5EBB0031086D /* Debug */,
+				20C38B34228D5EBB0031086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C38B35228D5EBB0031086D /* Build configuration list for PBXNativeTarget "Toturial03UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C38B36228D5EBB0031086D /* Debug */,
+				20C38B37228D5EBB0031086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C38AFB228D5EBA0031086D /* Project object */;
+}
